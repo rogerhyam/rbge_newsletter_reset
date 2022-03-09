@@ -6,7 +6,7 @@ Version: 0.1
 Author: Roger Hyam
 License: GPL2
 */
- error_reporting(E_ALL); ini_set('display_errors', 1);
+// error_reporting(E_ALL); ini_set('display_errors', 1);
 
 add_action( 'rest_api_init', function () {
 	register_rest_route( 'rbge_newsletter_reset', '/since/*', array(
